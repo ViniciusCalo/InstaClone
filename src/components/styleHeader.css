@@ -18,3 +18,30 @@
     margin: 0 auto;
     width: 90%;
 }
+
+.header .container img {
+    width:110px;
+    cursor: pointer;
+}
+
+.inputFake{
+    background: var(--background-main);
+    border-radius: 3px;
+
+    padding: 3px 10px;
+
+    border:  1px solid var(--border);
+    display: flex;
+    align-items: center;
+}
+
+.inputFake input {
+    font-size: 12px;
+    padding: 0px 7px;
+}
+
+.menu-icons{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
