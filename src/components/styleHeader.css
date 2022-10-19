@@ -19,7 +19,7 @@
     width: 90%;
 }
 
-.header .container img {
+.header .container .logo {
     width:110px;
     cursor: pointer;
 }
@@ -39,9 +39,15 @@
     font-size: 12px;
     padding: 0px 7px;
 }
-
 .menu-icons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.menu-icons .imgUser{
     width: 26px;
     height: 26px;
-    border-radius: 50%;
+    border-radius: 100%;
 }

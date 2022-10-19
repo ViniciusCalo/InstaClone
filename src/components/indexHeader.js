@@ -43,7 +43,7 @@ export function Header() {
                             <FiHeart />
                         </div>
                     </IconContext.Provider>
-
+                    <img className='imgUser' src='https://avatars.githubusercontent.com/u/87732419?v=4' />
 
                 </div>
 
