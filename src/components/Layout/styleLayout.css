@@ -1,0 +1,23 @@
+.main{
+    display: grid;
+
+    grid-template-areas: "firstCollumn secondCollumn";
+    grid-template-columns: 614px 293px;
+    grid-gap: 50px;
+
+
+    max-width: 957px;
+    margin: 65px auto;
+    
+
+}
+
+.box{
+    align-items: center;
+    background-color: var(--background);
+    border: 1px solid var(--border);
+}
+
+.boxSuggestion{
+    background-color: gray;
+}

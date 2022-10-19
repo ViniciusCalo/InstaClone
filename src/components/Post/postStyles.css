@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.infoPost{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.imgPost img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.footerPost{
+    padding: 10px 15px;
+}
+
+.interaction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interaction .icons-1{
+    display: flex;
+    gap: 16px;
+}
+
+.icons{
+     cursor: pointer;
+}
