@@ -29,12 +29,33 @@ header img {
     display: flex;
     justify-content: space-between;
 }
-
 .interaction .icons-1{
+    
     display: flex;
     gap: 16px;
 }
-
 .icons{
      cursor: pointer;
+}
+
+.like{
+    margin-top: 6px;
+}
+
+.like span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.caption {
+    margin: 6px 0 3px;
+}
+
+.caption p span {
+    font-weight: 500;
+}
+
+.timing time{
+    font-size: 11px;
+    color: var(--secondary);
 }

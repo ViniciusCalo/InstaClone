@@ -12,7 +12,7 @@ export function Story() {
                     <img className="userImg" src="https://avatars.githubusercontent.com/u/87732419?v=4" />
                 </div>
 
-                <span>neymarjr</span>
+                <span>alaas</span>
             </div>
 
             <div className="user" >
@@ -22,6 +22,22 @@ export function Story() {
                 </div>
 
                 <span>neymarjr</span>
+            </div>
+            <div className="user" >
+
+                <div>
+                    <img className="userImg" src="https://avatars.githubusercontent.com/u/87732419?v=4" />
+                </div>
+
+                <span>vini</span>
+            </div>
+            <div className="user" >
+
+                <div>
+                    <img className="userImg" src="https://avatars.githubusercontent.com/u/87732419?v=4" />
+                </div>
+
+                <span>oioi</span>
             </div>
         </div>
 

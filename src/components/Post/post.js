@@ -21,13 +21,14 @@ export function Post() {
             </div>
 
             <div className='footerPost'>
-                <IconContext.Provider value={{siz:'30px'}}>
+                <IconContext.Provider value={{size:'30px'}}>
                     <section className='interaction'>
-                        <div>
+                        <div className='icons-1'>
                             <div className='icons'><IoMdHeartEmpty /></div>
                             <div className='icons'><BsChat /></div>
                             <div className='icons'><FiSend /></div>
                         </div>
+
                         <div className='icons'><BsBookmark /></div>
                         <div>
 
@@ -35,6 +36,20 @@ export function Post() {
                     </section>
 
                 </IconContext.Provider>
+
+                <section className='like'>
+                     <span>810 curtidas</span>
+                </section>
+
+                <div className='caption'>
+                    <p>
+                        <strong>100_clubismo</strong> O melhor jogador do Mundo, Karim Benzema, figura entre os maiores artilheiros em atividade. Confira.
+                    </p>
+                </div>
+
+                <div className='timing'>
+                    <time>Há 2 horas</time>
+                </div>
             </div>
         </>
 
