@@ -1,0 +1,114 @@
+.containerSug {
+    margin-top: 18px;
+}
+
+.headerSug{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.headerSug img {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.userInfoSug{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+
+}
+
+.userInfoSug .infos span {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.userInfoSug .infos p {
+    font-size: 13px;
+    color: var(--secondary);
+}
+
+.userInfoSug .switch {
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--quartary);
+}
+
+.headerMainSug{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 10px 0;
+}
+.headerMainSug p {
+    font-size: 15px;
+    color: var(--secondary);
+
+    font-weight: 500;
+}
+
+.headerMainSug span{
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.userSug {
+    margin-top: 5px;
+}
+
+.infosSug {
+    margin: 15px 0 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.infosSug img{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.infoSug{
+    flex: 1;
+}
+
+
+.infoSug span{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.infoSug p{
+    font-size: 13px;
+    color: var(--secondary);
+    margin-top: 3px;
+}
+
+.infosSug .follow {
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--quartary);
+    font-weight: 500;
+}
+
+.footerSug{
+    margin-top: 25px;
+    flex: 1;
+}
+
+.footerSug p {
+    font-size: 12px;
+    color: var(--tertiary);
+    margin-bottom: 15px;
+    cursor: pointer;
+}

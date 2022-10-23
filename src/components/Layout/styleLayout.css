@@ -3,21 +3,25 @@
 
     grid-template-areas: "firstCollumn secondCollumn";
     grid-template-columns: 614px 293px;
-    grid-gap: 50px;
+    grid-gap: 20px;
 
 
     max-width: 957px;
-    margin: 65px auto;
+    margin: 85px auto;
     
 
 }
 
 .box{
+    margin: 10px;
+    border-radius: 25px;
     align-items: center;
     background-color: var(--background);
     border: 1px solid var(--border);
 }
 
 .boxSuggestion{
-    background-color: gray;
+    flex: 1;
+    max-width: 293px;
+    position: fixed;
 }
