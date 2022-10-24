@@ -30,9 +30,7 @@ export function Post() {
                         </div>
 
                         <div className='icon'><BsBookmark /></div>
-                        <div>
 
-                        </div>
                     </section>
 
                 </IconContext.Provider>
@@ -90,9 +88,6 @@ export function Post() {
                         </div>
 
                         <div className='icon'><BsBookmark /></div>
-                        <div>
-
-                        </div>
                     </section>
 
                 </IconContext.Provider>
@@ -150,9 +145,6 @@ export function Post() {
                         </div>
 
                         <div className='icon'><BsBookmark /></div>
-                        <div>
-
-                        </div>
                     </section>
 
                 </IconContext.Provider>
@@ -209,9 +201,6 @@ export function Post() {
                         </div>
 
                         <div className='icon'><BsBookmark /></div>
-                        <div>
-
-                        </div>
                     </section>
 
                 </IconContext.Provider>
